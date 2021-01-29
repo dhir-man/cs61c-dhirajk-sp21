@@ -7,7 +7,7 @@ int ll_has_cycle(node *head) {
         return 0;
     }
     node *hare = head;
-    node *tortiose = head;
+    node *tortoise = head;
     do {
         hare = hare->next->next;
         tortoise = tortoise->next;
