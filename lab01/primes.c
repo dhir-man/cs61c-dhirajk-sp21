@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
         if(isPrime(i)) //Checks if a number is prime. As a reminder, 0 is false, and any nonzero value is true.
         {
             fprintf(stdout, "%d\n", i); //Prints the number i to standard output
-            printf("%e%% complete\n", onepercent*100);
+            printf("%d%% complete\n", onepercent*100);
             num_prime++;
         }
     }
