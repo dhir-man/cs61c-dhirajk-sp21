@@ -11,7 +11,7 @@ int ll_has_cycle(node *head) {
     do {
         hare = hare->next->next;
         tortoise = tortoise->next;
-    } while(hare->next->next != NULL && hare != tortiose);
+    } while(hare->next->next != NULL && hare != tortoise);
     if(tortoise == hare) {
         return 1;
     }
